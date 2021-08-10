@@ -1,0 +1,6 @@
+#! /bin/bash
+read -p 'name' $NAME   	 # we have created variable NAME
+echo $NAME   		 # displaying name
+read -p 'age' $AGE   	 # we have created variable AGE
+echo "$AGE"   		 # displaying name
+

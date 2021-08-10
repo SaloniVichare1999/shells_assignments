@@ -1,0 +1,25 @@
+#! /bin/bash
+
+echo "------FOOD MENU------"
+echo " 1. Pizza"
+echo " 2. Pasta"
+echo " 3. Frise"
+
+echo -e "WHICH DISH YOU WANT TO ORDER : \c "
+read menu
+
+#menu=$1
+
+case $menu in
+    "Pizza" )
+    echo " $menu for Rs.400 " ;;
+    
+    "Pasta" )
+    echo " $menu for Rs.350 " ;;
+    
+    "Frise" )
+    echo " $menu for Rs.200 " ;;
+    
+    * )
+    echo " please enter correct food menu"
+esac

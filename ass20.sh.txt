@@ -1,0 +1,12 @@
+#! /bin/bash
+
+echo "Entre name of directory"
+read dir_name
+cd $dir_name > /dev/null
+#num < echo $dir_name
+if $num
+then
+    echo "directory is present"
+else
+    echo "directory not present"
+fi

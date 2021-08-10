@@ -1,0 +1,11 @@
+#! /bin/bash
+function user_info {
+firstname=$1
+year=365
+read -p "Enter age: " age
+echo $age
+days=$(( age*year ))
+echo "Dear $firstname your age is $age in days are $days"
+}
+
+user_info saloni

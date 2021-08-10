@@ -1,0 +1,21 @@
+#! /bin/bash
+
+function one()
+{
+echo  "1. Display Content 2. Clear 3. Exit"
+read choice
+case $choice in
+    "1" )
+    echo "this is shells script tutorial" ;;
+    "2" )
+    echo "Clearing screen" ;;
+    "3" )
+    break ;;
+}
+
+
+while read p
+do
+    one()
+done
+	

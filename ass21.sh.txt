@@ -1,0 +1,7 @@
+#! /bin/bash
+function print {
+    echo "in the print function"
+}
+echo "before calling print function "
+print
+echo "After calling print function"

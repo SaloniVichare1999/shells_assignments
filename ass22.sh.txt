@@ -1,0 +1,18 @@
+#! /bin/bash
+loc_var=30
+glob_var=10
+function var_demo {
+    echo "in the variable function"
+    loc_var=20
+    echo "$loc_var"
+}
+echo "Before calling var_demo function"
+
+echo "$glob_var"
+echo "$loc_var"
+
+var_demo
+
+echo "After calling var function"
+echo "Global variable is $glob_var"
+echo "local variable is $loc_var"

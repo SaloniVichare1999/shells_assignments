@@ -1,0 +1,14 @@
+#! /bin/bash
+read -p 'Give username : ' user_var
+read -sp 'password :' pass_var
+echo
+echo 'USERNME is  : '$user_var   				 
+echo 'PASSWORD is :' $pass_var
+
+y=date
+STARTOFSCRIPT=$(date +%T)
+ENDOFSCRIPT=$(date +%T)
+
+echo 'STARTOFSCRIPT : '$STARTOFSCRIPT   				 
+echo 'ENDOFSCRIPT :' $ENDOFSCRIPT
+

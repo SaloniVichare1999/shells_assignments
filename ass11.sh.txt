@@ -1,0 +1,12 @@
+#! /bin/bash
+read -sp 'secret no [1-5] :' secret_no
+echo    				 # write echo bcz we are getting line 12 on the same line 10
+#echo 'srecret no [1-5]:' $secret_no
+echo "Guess a secret number between 1-5: "
+read guess
+ 
+if [ $guess == $secret_no ]
+then
+    echo "correct guess"
+fi	
+

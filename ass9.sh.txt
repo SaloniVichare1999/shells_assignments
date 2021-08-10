@@ -1,0 +1,4 @@
+#! /bin/bash
+
+SERVERLIST=('windows' 'linux' 'CentOs' 'macOS')
+echo "${SERVERLIST[@]}"

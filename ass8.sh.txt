@@ -1,0 +1,8 @@
+#! /bin/bash
+read -p 'FIRSTNAME : ' first_name
+read -p 'LASTNAME : ' last_name
+read -p 'USERAGE : ' user_age
+v=10
+sum=$(( $user_age + $v ))
+echo "hello $first_name $last_name your age after 10 years is $sum"
+

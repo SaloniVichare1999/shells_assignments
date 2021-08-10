@@ -1,0 +1,15 @@
+#! /bin/bash
+
+echo -e "How many times you want to print: \c"
+read num
+n=1
+while [ $n -le $num ]
+do
+    for (( j=1; j<=$num; j++ ))
+   	 do
+   		 echo " $n  you want to print this line $num times"
+   		 n=$(( n+1 ))
+   		 
+    done
+done	
+

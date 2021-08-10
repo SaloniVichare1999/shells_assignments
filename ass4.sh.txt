@@ -1,0 +1,3 @@
+#! /bin/bash
+echo "This is shell scripting tutorial"
+echo "forgot what i typed" 2>/dev/null
