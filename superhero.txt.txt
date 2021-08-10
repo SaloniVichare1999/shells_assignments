@@ -1,0 +1,5 @@
+CPU|MEMORY|DISK
+Superman
+Spiderman
+Batman
+Perman
